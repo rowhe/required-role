@@ -1,7 +1,7 @@
 Role Name
 =========
 
-A brief required-role
+required-role
 
 Requirements
 ------------
