@@ -1,0 +1,10 @@
+---
+- name: Installing missing sudo, procps, nano, unzip
+  ansible.builtin.package:
+    name:
+      - sudo
+      - procps
+      - nano
+      - unzip
+      - curl
+    state: present
